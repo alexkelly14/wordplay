@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB14E1F1DC2629A00DFF58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB14E1E1DC2629A00DFF58D /* AppDelegate.swift */; };
+		FCB14E241DC2629A00DFF58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB14E221DC2629A00DFF58D /* Main.storyboard */; };
+		FCB14E261DC2629A00DFF58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB14E251DC2629A00DFF58D /* Assets.xcassets */; };
+		FCB14E291DC2629A00DFF58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB14E271DC2629A00DFF58D /* LaunchScreen.storyboard */; };
+		FCB14E311DC2AF6A00DFF58D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB14E301DC2AF6A00DFF58D /* secondViewController.swift */; };
+		FCD1B76E1DC6B3AB00CE9CA4 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1B76D1DC6B3AB00CE9CA4 /* thirdViewController.swift */; };
+		FCD1B7701DC6B44E00CE9CA4 /* wordPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1B76F1DC6B44E00CE9CA4 /* wordPlay.swift */; };
+		FCD1B7721DC6B9DC00CE9CA4 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1B7711DC6B9DC00CE9CA4 /* firstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCB14E1B1DC2629A00DFF58D /* WordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB14E1E1DC2629A00DFF58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB14E231DC2629A00DFF58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB14E251DC2629A00DFF58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB14E281DC2629A00DFF58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB14E2A1DC2629A00DFF58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB14E301DC2AF6A00DFF58D /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		FCD1B76D1DC6B3AB00CE9CA4 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		FCD1B76F1DC6B44E00CE9CA4 /* wordPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wordPlay.swift; sourceTree = "<group>"; };
+		FCD1B7711DC6B9DC00CE9CA4 /* firstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB14E181DC2629A00DFF58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB14E121DC2629A00DFF58D = {
+			isa = PBXGroup;
+			children = (
+				FCB14E1D1DC2629A00DFF58D /* WordPlay */,
+				FCB14E1C1DC2629A00DFF58D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB14E1C1DC2629A00DFF58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB14E1B1DC2629A00DFF58D /* WordPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB14E1D1DC2629A00DFF58D /* WordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				FCB14E1E1DC2629A00DFF58D /* AppDelegate.swift */,
+				FCD1B76F1DC6B44E00CE9CA4 /* wordPlay.swift */,
+				FCD1B7711DC6B9DC00CE9CA4 /* firstViewController.swift */,
+				FCB14E301DC2AF6A00DFF58D /* secondViewController.swift */,
+				FCD1B76D1DC6B3AB00CE9CA4 /* thirdViewController.swift */,
+				FCB14E221DC2629A00DFF58D /* Main.storyboard */,
+				FCB14E251DC2629A00DFF58D /* Assets.xcassets */,
+				FCB14E271DC2629A00DFF58D /* LaunchScreen.storyboard */,
+				FCB14E2A1DC2629A00DFF58D /* Info.plist */,
+			);
+			path = WordPlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB14E1A1DC2629A00DFF58D /* WordPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB14E2D1DC2629A00DFF58D /* Build configuration list for PBXNativeTarget "WordPlay" */;
+			buildPhases = (
+				FCB14E171DC2629A00DFF58D /* Sources */,
+				FCB14E181DC2629A00DFF58D /* Frameworks */,
+				FCB14E191DC2629A00DFF58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPlay;
+			productName = WordPlay;
+			productReference = FCB14E1B1DC2629A00DFF58D /* WordPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB14E131DC2629A00DFF58D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alexandra Kelly ";
+				TargetAttributes = {
+					FCB14E1A1DC2629A00DFF58D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCB14E161DC2629A00DFF58D /* Build configuration list for PBXProject "WordPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB14E121DC2629A00DFF58D;
+			productRefGroup = FCB14E1C1DC2629A00DFF58D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB14E1A1DC2629A00DFF58D /* WordPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB14E191DC2629A00DFF58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB14E291DC2629A00DFF58D /* LaunchScreen.storyboard in Resources */,
+				FCB14E261DC2629A00DFF58D /* Assets.xcassets in Resources */,
+				FCB14E241DC2629A00DFF58D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB14E171DC2629A00DFF58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB14E311DC2AF6A00DFF58D /* secondViewController.swift in Sources */,
+				FCD1B7701DC6B44E00CE9CA4 /* wordPlay.swift in Sources */,
+				FCD1B76E1DC6B3AB00CE9CA4 /* thirdViewController.swift in Sources */,
+				FCB14E1F1DC2629A00DFF58D /* AppDelegate.swift in Sources */,
+				FCD1B7721DC6B9DC00CE9CA4 /* firstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB14E221DC2629A00DFF58D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB14E231DC2629A00DFF58D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB14E271DC2629A00DFF58D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB14E281DC2629A00DFF58D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB14E2B1DC2629A00DFF58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB14E2C1DC2629A00DFF58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB14E2E1DC2629A00DFF58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alexkelly.WordPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCB14E2F1DC2629A00DFF58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alexkelly.WordPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB14E161DC2629A00DFF58D /* Build configuration list for PBXProject "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB14E2B1DC2629A00DFF58D /* Debug */,
+				FCB14E2C1DC2629A00DFF58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB14E2D1DC2629A00DFF58D /* Build configuration list for PBXNativeTarget "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB14E2E1DC2629A00DFF58D /* Debug */,
+				FCB14E2F1DC2629A00DFF58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB14E131DC2629A00DFF58D /* Project object */;
+}
